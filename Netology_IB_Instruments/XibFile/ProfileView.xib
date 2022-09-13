@@ -1,0 +1,2797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" id="iN0-l3-epB" customClass="ProfileView" customModule="Netology_IB_Instruments" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="887"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDA-sg-3FI">
+                    <rect key="frame" x="150" y="44" width="237" height="35"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES"/>
+                    <color key="backgroundColor" systemColor="systemGray5Color"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uip-0J-KBy">
+                    <rect key="frame" x="150" y="128" width="237" height="35"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES"/>
+                    <color key="backgroundColor" systemColor="systemGray5Color"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Birth data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJ8-jB-vra">
+                    <rect key="frame" x="150" y="86" width="237" height="35"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES"/>
+                    <color key="backgroundColor" systemColor="systemGray5Color"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentInsetAdjustmentBehavior="scrollableAxes" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nzc-ls-VNR">
+                    <rect key="frame" x="19" y="188" width="369" height="679"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES"/>
+                    <color key="backgroundColor" red="0.95849546392764862" green="0.98178428712323229" blue="0.85630731016153405" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Кодекс">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="ковбоев">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">. 
+
+1. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Обгоняя">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="кого">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="-">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="либо">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="на">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="дороге">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="поздоровайтесь">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+2. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Приближаясь">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="к">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="кому">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="-">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="либо">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="сзади">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="громко">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="его">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="поприветствуйте">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="до">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="того">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="как">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="окажетесь">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="в">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="пределах">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="пистолетного">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="выстрела">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+3. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="машите">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="человеку">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="на">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="лошади">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=". ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Это">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="может">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="напугать">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="лошадь">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="а">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="человек">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="подумает">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="что">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="вы">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="идиот">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" (">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="правильное">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="приветствие">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" — ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="кивок">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">).
+4. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Обогнав">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="кого">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="-">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="либо">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="на">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="дороге">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="оглядывайтесь">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=". ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Это">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="говорит">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="о">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="недоверии">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="к">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="человеку">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+5. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Ездить">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="на">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="лошади">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="другого">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="человека">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="без">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="его">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="разрешения">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" — ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="все">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="равно">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="что">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="заниматься">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="любовью">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="с">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="его">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="женой">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=". ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Даже">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="трогайте">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="чужую">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="лошадь">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+6. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Никогда">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="стреляйте">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="в">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="безоружного">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="мужчину">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=". ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Вообще">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="никогда">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="стреляйте">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="в">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="женщину">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+7. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Ковбой">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="приятен">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="в">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="общении">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="даже">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="если">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="в">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="духе">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=". ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Жалуются">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="только">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="слабаки">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="а">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="ковбои">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="ненавидят">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="слабаков">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+8. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Всегда">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="будьте">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="храбрым">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=". ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Трусов">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="терпят">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="ни">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="в">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="каком">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="виде">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+9. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Ковбой">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="всегда">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="помогает">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="нуждающемуся">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="даже">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="если">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="это">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="незнакомец">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="или">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="враг">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+10. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Покидая">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="город">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="после">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="бурных">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="выходных">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="позволительно">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="стрелять">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="из">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="револьверов">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="в">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="воздух">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="безумно">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="кричать">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="и">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="гнать">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="лошадь">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="так">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="быстро">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="как">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="это">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="возможно">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=". ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Это">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="называется">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" «">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="почтить">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="» ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="город">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+11. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Конокрад">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="может">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="без">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="колебаний">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="быть">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="повешен">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+12. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Никогда">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="примеряйте">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="на">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="себя">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="чужую">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="шляпу">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+13. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Никогда">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="будите">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="другого">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="человека">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="потрясыванием">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="или">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="касанием">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=". ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Он">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="может">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="внезапно">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="проснуться">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="и">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="застрелить">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="вас">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+14. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Настоящие">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="ковбои">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="скромные">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=". ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Хвастунов">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="у">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="которых">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="слова">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="расходятся">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="с">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="делом">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="терпят">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+15. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Ковбой">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="много">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="не">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="болтает">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="; ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="молчание">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" — ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="золото">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">.
+16. </string>
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Неважно">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="как">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="сильно">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="вы">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="устали">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="или">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="голодны">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="после">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="длинного">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="дня">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="в">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="седле">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="всегда">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="сначала">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="позаботьтесь">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="о">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="лошади">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="а">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="потом">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="о">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="себе">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="и">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="накормите">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="лошадь">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="перед">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="тем">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=", ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="как">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="поедите">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="сами">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="Times-Roman"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=".">
+                            <attributes>
+                                <color key="NSColor" systemColor="labelColor"/>
+                                <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cowboy" translatesAutoresizingMaskIntoConstraints="NO" id="nDz-na-3yq">
+                    <rect key="frame" x="18" y="44" width="96" height="119"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.98178428709999999" green="0.96972387010000005" blue="0.8112668261" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="myImageView" destination="nDz-na-3yq" id="bdc-ns-u9h"/>
+                <outlet property="myLabelBirthData" destination="OJ8-jB-vra" id="d23-LV-8oc"/>
+                <outlet property="myLabelCity" destination="Uip-0J-KBy" id="c9U-T0-Kp9"/>
+                <outlet property="myLabelName" destination="sDA-sg-3FI" id="M2U-7g-Dfp"/>
+                <outlet property="myTextView" destination="Nzc-ls-VNR" id="OU6-dB-EEc"/>
+            </connections>
+            <point key="canvasLocation" x="110.14492753623189" y="-141.62946428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Cowboy" width="1182" height="1456"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
